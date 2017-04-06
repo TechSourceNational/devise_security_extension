@@ -4,8 +4,9 @@
     <list default="true" id="3716eb2a-0216-4085-b6aa-bcaa9cf47542" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/devise_security_extension.iml" afterPath="$PROJECT_DIR$/.idea/devise_security_extension.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/devise/password_expired_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/devise/password_expired_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/devise_security_extension/controllers/helpers.rb" afterPath="$PROJECT_DIR$/lib/devise_security_extension/controllers/helpers.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ruby-version" afterPath="$PROJECT_DIR$/.ruby-version" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/devise_security_extension/models/password_archivable.rb" afterPath="$PROJECT_DIR$/lib/devise_security_extension/models/password_archivable.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/devise_security_extension/models/password_expirable.rb" afterPath="$PROJECT_DIR$/lib/devise_security_extension/models/password_expirable.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,26 +23,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="509">
               <caret line="50" column="26" lean-forward="false" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_captcha_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_captcha_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="48" column="26" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_install_generator.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_install_generator.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,11 +48,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="password_expired_controller.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="password_expired_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/devise/password_expired_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="password_expirable.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/devise_security_extension/models/password_expirable.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="password_archivable.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/devise_security_extension/models/password_archivable.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -121,12 +122,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>to_repar</find>
-      <find>to_repa</find>
-      <find>to_rep</find>
-      <find>to_re</find>
-      <find>to_r</find>
-      <find>to_</find>
       <find>to_prepa</find>
       <find>to_prepare</find>
       <find>s</find>
@@ -151,6 +146,12 @@
       <find>prepend_before_f</find>
       <find>prepend_before_fi</find>
       <find>prepend_before_fi`</find>
+      <find>F</find>
+      <find>FixN</find>
+      <find>Fix</find>
+      <find>Fixn</find>
+      <find>Fixnu</find>
+      <find>Fixnum</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,6 +168,8 @@
         <option value="$PROJECT_DIR$/test/test_paranoid_verification.rb" />
         <option value="$PROJECT_DIR$/lib/devise_security_extension/controllers/helpers.rb" />
         <option value="$PROJECT_DIR$/app/controllers/devise/password_expired_controller.rb" />
+        <option value="$PROJECT_DIR$/lib/devise_security_extension/models/password_expirable.rb" />
+        <option value="$PROJECT_DIR$/lib/devise_security_extension/models/password_archivable.rb" />
       </list>
     </option>
   </component>
@@ -272,6 +275,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devise_security_extension" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devise_security_extension" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devise_security_extension" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -347,12 +372,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491440218269</updated>
-      <workItem from="1491440219398" duration="3255000" />
+      <workItem from="1491440219398" duration="4511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3255000" />
+    <option name="totallyTimeSpent" value="4511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2466" height="1417" extended-state="0" />
@@ -495,7 +520,23 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/devise/password_expired_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/devise_security_extension/models/password_expirable.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/devise_security_extension/models/password_archivable.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
           <folding />
         </state>
       </provider>
