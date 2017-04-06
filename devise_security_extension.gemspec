@@ -18,11 +18,11 @@ Gem::Specification.new do |s|
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- test/*`.split("\n")
   s.require_paths = ['lib']
-  s.required_ruby_version = '>= 2.1.0'
+  s.required_ruby_version = '>= 2.3.3'
 
-  s.add_runtime_dependency 'railties', '>= 3.2.6', '< 6.0'
-  s.add_runtime_dependency 'devise', '>= 3.0.0', '< 5.0'
-  s.add_development_dependency 'bundler', '>= 1.3.0', '< 2.0'
+  s.add_runtime_dependency 'railties', '>= 5.0.2'
+  s.add_runtime_dependency 'devise', '>= 4.2.1'
+  s.add_development_dependency 'bundler', '>= 1.13.6'
   s.add_development_dependency 'sqlite3', '~> 1.3.10'
   s.add_development_dependency 'rubocop', '~> 0'
   s.add_development_dependency 'minitest'
